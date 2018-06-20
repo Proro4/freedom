@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>generator webapp</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="header">
+              <div class="header__logo">
+                <a href="#"><img src="images/logo.png"></a>
+              </div>  
+              <div class="header__tel">
+                  +38 (096) 805 98 09
+              </div> 
+              <a class="butt" href="#"  data-toggle="modal" data-target="#modaltel">Оплата</a>
+              <!-- Button trigger modal -->
+              <!-- Modal -->
+              <div class="modal fade" id="modaltel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content"> 
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>  
+                      <h3>Замовити дзвінок</h3>
+                      <span>Заповніть форму заявки для зворотнього зв’язку</span> 
+                      <div class="modal__form">
+                        <input class="modal__form__input" type="text" placeholder="Ваше ім'я*">
+                        <input class="modal__form__input" type="tel" placeholder="Номер телефону">
+                        <input type="submit" class="butt modal__form__submit"> 
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="banner">
+        <div class="banner__text"></div> 
+      </div>
+      <section class="info-1">
+        <div class="container">
+          <div class="row">
+            <h2>Обери свій курс</h2>
+            <div class="info-1__inner">
+                <div class="info-1__inner__list">
+                  <img src="images/info-1_1.png">
+                  <div class="info-1__inner__list__info">
+                    <div class="info-1__inner__list__info__block">
+                      <h3>
+                        Life. Kурс для дорослих
+                      </h3>
+                      <p>Усе, що потрібно для спілкування</p>
+                    </div>
+                    <div class="info-1__inner__list__info__block">
+                      <ul>
+                        <li>2 заняття/тиждень по 80 хв.</li>
+                        <li>безкоштовне перше заняття</li>
+                        <li>до 6 осіб в групі</li>
+                      </ul>
+                    </div>
+                    <div class="info-1__inner__list__info__sum">
+                      <p><b>480 </b> + підручник <small>грн/місяць</small></p>
+                      <a class="butt" href="#"  data-toggle="modal" data-target="#modalsum">Так, цікавить</a>
+                      <!-- Button trigger modal -->
+                      <!-- Modal -->
+                      <div class="modal fade" id="modalsum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content"> 
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>  
+                              <h3 class="black">Life. Kурс для дорослих</h3>
+                              <span>Заповніть форму заявки для зворотнього зв’язку</span> 
+                              <div class="modal__form">
+                                <input class="modal__form__input" type="text" placeholder="Ваше ім'я*">
+                                <input class="modal__form__input" type="text" placeholder="Вік*">
+                                <input class="modal__form__input" type="tel" placeholder="Номер телефону*">
+                                <textarea class="modal__form__textarea"></textarea>
+                                <input type="submit" class="butt modal__form__submit" > 
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-1__inner__list">
+                  <div class="info-1__inner__list__info">
+                    <div class="info-1__inner__list__info__block">
+                      <h3>
+                       Family&Friends. Курс для дітей
+                      </h3>
+                      <p>Цікава англійська з максимум результату</p>
+                    </div>
+                    <div class="info-1__inner__list__info__block">
+                      <ul>
+                        <li>для учнів від 5 до 12 років</li>
+                        <li>2 заняття/тиждень по 80 хв.</li>
+                        <li>безкоштовне перше заняття</li>
+                        <li>до 6 осіб в групі</li>
+                      </ul>
+                    </div>
+                    <div class="info-1__inner__list__info__sum">
+                      <p><b>480 </b> + підручник <small>грн/місяць</small></p>
+                      <a class="butt" href="#"   data-toggle="modal" data-target="#modalok">Так, цікавить</a>
+                      <!-- Button trigger modal -->
+                      <!-- Modal -->
+                      <div class="modal fade" id="modalok" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content"> 
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>   
+                              <div class="modal__form">
+                                <img src="images/popup-ok.png" alt="">
+                                 <h3 class="black">Заявка відправлена!</h3>
+                                 <span>Очікуйте дзвінка найближчим часом</span>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/info-1_2.png"> 
+                </div>  
+                <div class="info-1__inner__list">
+                  <img src="images/info-1_3.png">
+                  <div class="info-1__inner__list__info">
+                    <div class="info-1__inner__list__info__block">
+                      <h3>
+                       Staying in Focus. Курс для підлітків
+                      </h3>
+                      <p>Розмовна практика+ зрозуміла граматика</p>
+                    </div>
+                    <div class="info-1__inner__list__info__block">
+                      <ul>
+                        <li>для учнів від 13 до 17років</li>
+                        <li>2 заняття/тиждень по 80 хв.</li>
+                        <li>безкоштовне перше заняття</li>
+                        <li>до 6 осіб в групі</li>
+                      </ul>
+                    </div>
+                    <div class="info-1__inner__list__info__sum">
+                      <p><b>480 </b> + підручник <small>грн/місяць</small></p>
+                      <a class="butt" href="#">Так, цікавить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-1__inner__list">
+                  <div class="info-1__inner__list__info">
+                    <div class="info-1__inner__list__info__block">
+                      <h3>
+                       Get 200! Курс підготовки до ЗНО
+                      </h3>
+                      <p>Дізнайся секрети успішного складання!</p>
+                    </div>
+                    <div class="info-1__inner__list__info__block">
+                      <ul> 
+                        <li>2 заняття/тиждень по 80 хв.</li>
+                        <li>безкоштовне перше заняття</li>
+                        <li>до 6 осіб в групі</li>
+                      </ul>
+                    </div>
+                    <div class="info-1__inner__list__info__sum">
+                      <p><b>580 </b> + підручник <small>грн/місяць</small></p>
+                      <a class="butt" href="#">Так, цікавить</a>
+                    </div>
+                  </div>
+                  <img src="images/info-1_4.png"> 
+                </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info-2">
+        <div class="container">
+          <div class="row">
+            <h2>Що робить нас особливими:</h2>
+            <div class="info-2__inner">
+              <div class="info-2__inner__block">
+                <img src="images/info-2_1.png" alt="">
+              </div>
+              <div class="info-2__inner__block"> 
+                <p class="info-2__inner__block__a-left"><b>150+</b><span>студентів</span></p>
+              </div>
+              <div class="info-2__inner__block">
+                <p class="info-2__inner__block__a-left img">зручне місце <br> розташування
+                  <img src="images/info-2_2.png" alt="">
+                </p>
+              </div>
+              <div class="info-2__inner__block">
+                <p class="info-2__inner__block__a-left img">привітні <br> кваліфіковані <br> викладачі
+                  <img src="images/info-2_3.png" alt="">
+                </p>
+              </div>
+              <div class="info-2__inner__block">
+                <p class="info-2__inner__block__a-right img">
+                  <img src="images/info-2_4.png" alt="">
+                  оптимальна ціна
+                </p>
+              </div>
+              <div class="info-2__inner__block">
+                <img src="images/info-2_5.png" alt="">
+              </div>
+              <div class="info-2__inner__block">
+                <img src="images/info-2_6.png" alt="">
+              </div>
+              <div class="info-2__inner__block">
+                <p class="info-2__inner__block__a-left img">дружня атмосфера
+                  <img src="images/info-2_7.png" alt="">
+                </p>
+              </div>
+              <div class="info-2__inner__block center">
+                <p class="info-2__inner__block__a-left img">тематичні parties & events
+                  <img src="images/info-2_8.png" alt="">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info-3">
+        <div class="container">
+          <div class="row">
+            <h2>Віртуальна мандрівка</h2>
+            <div class="info-3__vr-link">
+              <a class="butt" href="#">Розпочати</a>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <section class="info-4">
+        <div class="container">
+          <div class="row"></div>
+            <h2>#freedomFamily</h2>
+            <div class="info-4__row">
+                <div class="info-4__row__item">
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_1.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_2.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_3.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_4.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_5.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_6.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_7.png" alt=""> 
+                  </a>
+                </div>
+                <div class="info-4__row__item"> 
+                  <a  data-fancybox="gallery"  href="images/info-4_1-b.png">
+                    <img src="images/info-4_8.png" alt=""> 
+                  </a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__map"></div>
+        <div class="contacts__info">
+          <h2>
+            Контакти
+          </h2>
+          <div class="contacts__info__tel">
+            <span>Контактний телефон:</span>
+            <p>+38 (096) 805 98 09</p>
+          </div>
+          <div class="contacts__info__adress">
+            <p>вул. Завадського, 5/1, 3 поверх</p>
+            <span>(за магазином Мисливство-Рибальство)</span>
+          </div>
+          <div class="contacts__info__email">
+            <span>E-mail:</span>
+            <a href="#">freedom_school@ukr.net</a>
+          </div>
+          <div class="contacts__info__soc">
+            <span>Ми в соц. мережах:</span>
+            <ul>
+              <li class="contacts__info__soc__fb"><a href="#"></a></li>
+              <li class="contacts__info__soc__in"><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="footer"> 
+        <div class="footer__copy">
+          Copyright © <span>2018 Freedom</span>
+        </div>
+        <div class="footer__studio">
+          <img src="images/studio-logo.png" alt="">
+        </div>
+      </footer>
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/jquery.fancybox.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
