@@ -579,3 +579,248 @@ button.fancybox-button.fancybox-button--close{
     background-size: 90%;
   }
 }
+@media screen and (max-width: 1200px){
+  .info-2__inner__block img,
+  .info-4__row__item a img{
+    max-width: 100%;
+  }
+  .info-1__inner__list img{
+    max-width:270px;
+  }
+}
+@media screen and (max-width: 992px){
+  header .header__tel{
+    font-size: 24px;
+  }
+  .info-1__inner__list__info{
+    padding: 0 0 0 15px;
+  }
+  .info-1__inner__list__info__block ul li{
+    font-size: 14px;
+  }
+  .info-1__inner__list__info__sum p b{
+    font-size: 40px;
+  }
+  .info-1__inner__list__info__sum p{
+    font-size: 24px;
+  }
+  .info-1__inner__list__info__sum .butt{
+    margin-right: 15px;
+  }
+  .butt{
+    padding: 0 35px;
+    font-size: 18px;
+  }
+  h3{
+    font-size: 28px;
+  }
+  .info-2__inner__block p{
+    font-size: 24px;
+  }
+  .contacts__info{
+    padding-left:50px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .banner{
+    height: 600px;
+  }
+  .info-3__vr-link{
+    height: 500px;
+  }
+  .info-2__inner__block__a-right{
+    background: url(../images/info-2_arrow.png) no-repeat center right 25px;
+  }
+  p.info-2__inner__block__a-right.img{
+    padding-right: 20px;
+  }
+  h2{
+    margin-bottom: 40px;
+  }
+  .info-2__inner__block p{
+    height: 195px;
+  }
+  .info-2__inner__block img, .info-4__row__item a img{
+    max-height: 50%;
+  }
+  .info-2__inner__block__a-left.img img{
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .info-2__inner__block{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  p.info-2__inner__block__a-right.img{
+    padding-right: 50px;
+  }
+  header {
+    padding: 0 15px;
+    .header__logo img{
+      width: 180px;
+    }
+  }
+  .info-4__row{
+    justify-content: center;
+  }
+  .info-4__row__item{
+    width: 33.3%;
+  }
+  .info-3__vr-link{
+    width: 90%;
+    margin-left: 5%;
+    height: 375px;
+  }
+  h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .contacts__info{
+    padding: 40px 20px 60px 20px;
+  }
+  .contacts__info__tel{
+    margin-bottom: 20px;
+  }
+  .contacts__info__tel p{
+    font-size: 20px;
+  }
+  .contacts__info__adress p{
+    font-size: 16px;
+  }
+  .contacts__info__email a{
+    font-size: 16px;
+  }
+  .fancybox-slide--image .fancybox-content{
+    width: 90%;
+  }
+  .banner{
+    height:425px;
+  }
+  header .header__tel{
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .butt{
+    height:50px;
+    line-height: 50px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .info-1__inner p{
+    font-size: 14px;
+  }
+  .info-1__inner__list__info__block ul li{
+    width: 100%;
+  }
+  .info-1__inner__list__info__sum{
+    flex-direction: column;
+    p{
+      small{
+        line-height: 0.8;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .info-1__inner__list img{
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 560px){
+  header .header{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 190px;
+  }
+  .banner{
+    height: 275px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  .info-1__inner__list{
+    flex-direction: column;
+  }
+  .info-1__inner__list__info{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .info-1__inner__list img{
+    max-width: 170px;
+    max-height: 200px;
+    margin: 10px 0;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .info-1__inner__list__info__block{
+    padding-bottom: 15px;
+  }
+  .info-1__inner__list__info__block ul li{
+    margin-top: 10px;
+  }
+  .info-1__inner__list__info__sum{
+    padding-top: 5px;
+  }
+  .info-2{
+    padding-top: 40px;
+  }
+  .info-2__inner__block__a-left b{
+    font-size: 85px;
+  }
+  .info-2__inner__block{
+    padding-right: 10px;
+  }
+  .info-3__vr-link{
+    height: 225px;
+  }
+  .info-4__row__item{
+    width: 50%;
+  }
+  .info-2__inner__block p{
+    height: auto;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .info-2__inner__block img{
+    max-height: 75px;
+  }
+  .info-2__inner__block.center{
+    width: 100%;
+    padding-right: 10px;
+  }
+  .contacts{
+    flex-direction: column;
+    &__info{
+      width: 100%;
+    }
+  }
+  .footer{
+    flex-direction: column;
+    height: 100px;
+  }
+  .modal-dialog{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  .modal-content .modal__form__input{
+    height: 50px;
+  }
+  .modal-content{
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 50px 15px;
+  }
+  .fancybox-slide--image .fancybox-content{
+    margin-left: 0;
+  }
+  button.fancybox-button.fancybox-button--close{
+    left: 50%;
+    top: -50px;
+    margin-left: -22px;
+  }
+}
