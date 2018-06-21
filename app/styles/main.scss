@@ -129,11 +129,28 @@ header{
   display: flex;
   justify-content:center;
   align-items:center;
-  margin-bottom: 70px;
-  &__text{
-    height: 100%;
-    width: 100%;
-    background: url('../images/banner-text.png')no-repeat center;
+  margin-bottom: 87px;
+    &__text{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      //background: url('../images/banner-text.png')no-repeat center;
+      p{
+        font-family: 'PTSerif-Regular';
+        font-size: 70px;
+        padding-top: 150px;
+        padding-left: 25px;
+        &:before{
+          content: '';
+          position: relative;
+          display: inline-block;
+          left: 0;
+          top: 0;
+          background: url("../images/freedom.png")no-repeat center;
+          height: 89px;
+          width: 392px;
+        }
+      }
   }
 }
 .info-1{
@@ -141,6 +158,7 @@ header{
     h3{
       color: $red;
       margin-top: 15px;
+      margin-bottom: 10px;
     }
     p{
       font-size: 16px;
@@ -177,7 +195,7 @@ header{
             align-items:center;
             justify-content:space-between;
             li{  
-              margin-top: 25px;
+              margin-top: 15px;
               font-size: 16px;
               font-family: 'PTSerif-Regular';
               display: flex;
@@ -218,6 +236,7 @@ header{
             }
           }
           .butt{
+            padding: 0 40px;
             margin-right: 50px;
           }
         }
@@ -574,9 +593,27 @@ button.fancybox-button.fancybox-button--close{
     display: none;
   }
 }
+@media screen and (min-width: 1300px){
+  .container-1300{
+    width: 1300px;
+  }
+}
 @media screen and (max-width: 1300px){
   .banner__text{
     background-size: 90%;
+  }
+  .banner__text img{
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+  }
+  .banner__text p{
+    font-size: 60px;
+  }
+  .banner__text p:before{
+    width: 300px;
+    background-size: 300px;
+    height: 75px;
   }
 }
 @media screen and (max-width: 1200px){
@@ -589,6 +626,17 @@ button.fancybox-button.fancybox-button--close{
   }
 }
 @media screen and (max-width: 992px){
+  .banner__text img{
+    max-width: 275px;
+  }
+  .banner__text p{
+    font-size: 50px;
+  }
+  .banner__text p:before{
+    background-size: 200px;
+    width: 200px;
+    height: 50px;
+  }
   header .header__tel{
     font-size: 24px;
   }
@@ -648,6 +696,22 @@ button.fancybox-button.fancybox-button--close{
   }
 }
 @media screen and (max-width: 770px) {
+  .banner__text{
+    justify-content: space-around;
+    align-items: center;
+  }
+  .banner__text img{
+    max-width: 205px;
+  }
+  .banner__text p{
+    font-size: 40px;
+    padding-top:0;
+  }
+  .banner__text p:before{
+    background-size: 150px;
+    width: 150px;
+    height: 40px;
+  }
   .info-2__inner__block{
     width:100%;
     display: flex;
@@ -731,6 +795,18 @@ button.fancybox-button.fancybox-button--close{
   }
 }
 @media screen and (max-width: 560px){
+  .banner__text img{
+    max-width: 120px;
+  }
+  .banner__text p{
+    padding-left: 10px;
+    font-size: 16px;
+    &:before{
+      background-size: 85px;
+      width: 85px;
+      height: 22px;
+    }
+  }
   header .header{
     flex-direction: column;
     justify-content: space-around;
