@@ -455,7 +455,7 @@ header{
   display: flex;
   &__map{
     width: 50%; 
-    background-size: cover;\
+    background-size: cover;
   }
   &__info{
     width: 50%;
@@ -821,6 +821,23 @@ button.fancybox-button.fancybox-button--close{
   }
 }
 @media screen and (max-width: 770px) {
+  .fancybox-navigation .fancybox-button--arrow_left{
+    background: url('../images/arrow-left.png')no-repeat center;
+    background-size: 25px;
+    &:hover{
+      background: url('../images/arrow-left-h.png')no-repeat center;
+      background-size: 25px;
+    }
+  }
+  .fancybox-navigation .fancybox-button--arrow_right{
+    background: url('../images/arrow-right.png')no-repeat center;
+    background-size: 25px;
+    &:hover{
+      background: url('../images/arrow-right-h.png')no-repeat center;
+      background-size: 25px;
+    }
+  }
+
   .info-2__inner__block__yellow img, .info-2__inner__block__red img, .info-2__inner__block__blue img{
     padding-right: 0;
   }
@@ -936,8 +953,29 @@ button.fancybox-button.fancybox-button--close{
   .info-1__inner__list img{
     max-width: 220px;
   }
+  .fancybox-button{
+    height: 30px;
+    width: 30px;
+  }
 }
 @media screen and (max-width: 560px){
+  .fancybox-navigation .fancybox-button--arrow_left{
+    background: url('../images/arrow-left.png')no-repeat center;
+    background-size: 20px;
+    &:hover{
+      background: url('../images/arrow-left-h.png')no-repeat center;
+      background-size: 20px;
+    }
+  }
+  .fancybox-navigation .fancybox-button--arrow_right{
+    background: url('../images/arrow-right.png')no-repeat center;
+    background-size: 20px;
+    &:hover{
+      background: url('../images/arrow-right-h.png')no-repeat center;
+      background-size: 20px;
+    }
+  }
+
   .banner__text img{
     max-width: 120px;
   }
